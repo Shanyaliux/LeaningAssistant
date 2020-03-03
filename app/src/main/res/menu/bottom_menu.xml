@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottomMenuTodo"
+        android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+        android:title="@string/Todo" />
+    <item
+        android:id="@+id/bottomMenuQuestion"
+        android:icon="@drawable/ic_class_black_24dp"
+        android:title="@string/Question" />
+    <item
+        android:id="@+id/bottomMenuWord"
+        android:icon="@drawable/ic_assignment_black_24dp"
+        android:title="@string/Word" />
+</menu>

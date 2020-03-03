@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/bottomMenuTodo">
+
+    <fragment
+        android:id="@+id/drawerMenuAbout"
+        android:name="com.shanya.leaningassistant.AboutFragment"
+        android:label="fragment_about"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/bottomMenuQuestion"
+        android:name="com.shanya.leaningassistant.question.QuestionFragment"
+        android:label="question_fragment"
+        tools:layout="@layout/question_fragment" />
+    <fragment
+        android:id="@+id/bottomMenuTodo"
+        android:name="com.shanya.leaningassistant.todo.TodoFragment"
+        android:label="todo_fragment"
+        tools:layout="@layout/todo_fragment" />
+    <fragment
+        android:id="@+id/bottomMenuWord"
+        android:name="com.shanya.leaningassistant.word.WordFragment"
+        android:label="word_fragment"
+        tools:layout="@layout/word_fragment" />
+</navigation>

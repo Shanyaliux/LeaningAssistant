@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LeaningAssistant</string>
+
+    <string name="nav_header_title" translatable="false">Android Studio</string>
+    <string name="nav_header_subtitle" translatable="false">android.studio@android.com</string>
+    <string name="nav_header_desc" translatable="false">Navigation header</string>
+    <string name="About">about</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="Todo">todo</string>
+    <string name="Question">question</string>
+    <string name="Word">word</string>
+</resources>
