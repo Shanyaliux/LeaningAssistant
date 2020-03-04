@@ -11,4 +11,9 @@
     <string name="Todo">todo</string>
     <string name="Question">question</string>
     <string name="Word">word</string>
+    <string name="word_add_english">English</string>
+    <string name="word_add_chinese">Chinese Meaning</string>
+    <string name="add_word_dialog_title">Add Word</string>
+    <string name="yes">yes</string>
+    <string name="no">no</string>
 </resources>
